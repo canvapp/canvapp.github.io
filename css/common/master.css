@@ -1,0 +1,34 @@
+
+body {
+  /*background-image: url(../../assets/background_opacity_10.png);*/
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,eeeeee+100;Grey+Flat */
+background: #eeeeee; /* Old browsers */
+background: -moz-linear-gradient(top, #eeeeee 0%, #eeeeee 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #eeeeee 0%,#eeeeee 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #eeeeee 0%,#eeeeee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+
+}
+
+.center_align {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  float: none !important;
+}
+
+.no_padding {
+  padding: 0;
+}
+.no_margin {
+  margin: 0;
+}
+.search_box {
+  border-radius: 15px;
+}
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.navbar {
+  border-radius: 0;
+}

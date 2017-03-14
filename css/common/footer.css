@@ -1,0 +1,83 @@
+#footer {
+  /*Nuevo 11//09/16 Cristian mantener footer al fondo */
+  /*position: absolute; 
+  bottom: 0%; */
+
+  background-color: #282828;
+  color: #288a7c;
+  /*font-family: Roboto_Light;*/
+  padding: 25px  0 15px 0;
+}
+
+  #footer > div > ul {
+    padding: 0;
+  }
+  #footer > div > ul > li {
+    font-size: 16px;
+    list-style-type: none;
+    text-align: center;
+    color: #fff;
+    padding: 5px 0 5px 0;
+  }
+  #footer > div > ul > li:hover {
+    color: #288a7c;
+    cursor: pointer;
+  }
+  #footer > div > div >img {
+    display: block;
+    float: none;
+    margin: 25px auto 10px auto;
+    opacity: 0.2;
+  }
+  #footer > div > div >img:hover {
+    opacity: 1.0;
+    cursor: pointer;
+  }
+  #footer > div > div > p {
+    text-align: center;
+    color: #fff;
+  }
+  #footer > div > label, p  {
+    display: block;
+    color: #fff;
+    text-align: center;
+  }
+  #footer > div > p:hover {
+    cursor: pointer;
+    color: #288a7c;
+  }
+
+
+  /* Custom Social Network Buttons */
+    div.social-button {
+      width: 180px;
+      height: 55px;
+      color: #fff;
+      border-radius: 35px;
+      display: block;
+      margin: 5px auto;
+      cursor: pointer;
+      opacity: 0.6;
+    }
+
+    div.social-button:hover {
+      opacity: 1;
+    }
+
+    div.social-button.facebook {
+      background: #3C579E;
+    }
+
+    div.social-button.instagram {
+      background: #9C13D3;
+    }
+
+    div.social-button > img {
+      border: 2px solid #fff;
+      border-radius: 35px;
+      margin: 3px;
+    }
+
+    div.social-button p {
+      display: inline-block;
+    }

@@ -1,0 +1,84 @@
+
+/*Options Menu Bar Styles*/
+ul.bartab
+{
+  /*margin-top: 25px;*/
+}
+
+li.tab
+{
+  width                   : 100%;
+  list-style-type         : none;
+  border-top              : 1px solid #FFF;
+  border-bottom           : 1px solid #ddd;
+  background-color        : #f4f5f6;
+  background-size         : 200% 100%;
+  background-position     : 90% 0px;
+  -webkit-transition      : 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+  -moz-transition         : 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+}
+li.block_tab
+{
+  display: block;
+}
+li.inline_tab
+{
+  display:  inline-block;
+}
+li.tab > a
+{
+  display             : block;
+  padding             : 25px 0;
+  margin-right        : 15px;  
+  color               : #454545;
+  text-align          : right;
+  font-family         : 'Source Code Pro', sans-serif;
+  font-size           : 22px;
+  text-decoration     : none;
+  -webkit-transition  : color .1s;
+  -moz-transition     : color .1s;
+}
+li.tab > a:hover
+{
+  color              : #fff;
+  -webkit-transition : color .1s;
+  -moz-transition    : color .1s;
+}
+li.tab:nth-child(1) {
+  border-top : none;
+  background-image : -webkit-linear-gradient(left, #78cdce 0%, #78cdce 50%, #f4f5f6 0%);
+  background-image : -moz-linear-gradient(left, #78cdce 0%, #78cdce 50%, #f4f5f6 0%);
+}
+
+li.tab:nth-child(2) {
+  background-image : -webkit-linear-gradient(left, #f16767 0%, #f16767 50%, #f4f5f6 0%);
+  background-image : -moz-linear-gradient(left, #f16767 0%, #f16767 50%, #f4f5f6 0%);
+}
+
+li.tab:nth-child(3) {
+  background-image : -webkit-linear-gradient(left, #f39c12 0%, #f39c12 50%, #f4f5f6 0%);
+  background-image : -moz-linear-gradient(left, #f39c12 0%, #f39c12 50%, #f4f5f6 0%);
+}
+
+li.tab:nth-child(4) {
+  background-image : -webkit-linear-gradient(left, #97cc69 0%, #97cc69 50%, #f4f5f6 0%);
+  background-image : -moz-linear-gradient(left, #97cc69 0%, #97cc69 50%, #f4f5f6 0%);
+}
+
+li.tab:nth-child(5) {
+  background-image : -webkit-linear-gradient(left, #507abd 0%, #507abd 50%, #f4f5f6 0%);
+  background-image : -moz-linear-gradient(left, #507abd 0%, #507abd 50%, #f4f5f6 0%);
+}
+
+li.tab:nth-child(6) {
+  background-image : -webkit-linear-gradient(left, #6b408e 0%, #6b408e 50%, #f4f5f6 0%);
+  background-image : -moz-linear-gradient(left, #6b408e 0%, #6b408e 50%, #f4f5f6 0%);
+  border-bottom : none;
+}
+
+
+li.tab:hover {
+  -webkit-transition : 0.3s cubic-bezier(0.175, 0.285, 0.32,1.0) all;
+  -moz-transition : 0.3s cubic-bezier(0.175, 0.285, 0.32,1.0) all;
+  background-position : 0% 0%;
+}

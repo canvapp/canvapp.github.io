@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Catalogo</title>
+
+    <!-- Bootstrap Core CSS -->
+    <!-- <link href="css/common/bootstrap.css" rel="stylesheet"> -->
+    <link href="css/common/bootstrap.min.css" rel="stylesheet">
+    <link href="css/common/master.css" rel="stylesheet">
+    <link href="css/common/menu.css" rel="stylesheet">
+    <link href="css/catalog/catalog.css" rel="stylesheet">
+    <link href="css/common/footer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- JS Files -->
+    <script src="js/common/jquery.js"></script>
+    <script src="js/common/bootstrap.min.js"></script>
+
+    <!-- Custome JS File(s) -->
+    <script src="js/catalog/catalog.js"></script>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="catalogo.html">Catalogo</a></li>
+                  <li><a href="clientes.html">Nuestros Clientes</a></li>
+                  <li><a href="promociones.html">Promociones</a></li>
+                  <li><a href="contacto.html">Contactanos</a></li>
+                  <!-- <li role="separator" class="divider"></li> -->
+                </ul>
+                <form class="navbar-form navbar-right">
+                  <div class="form-group">
+                    <input type="text" class="form-control search_box" placeholder="Search">
+                  </div>
+                </form>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Breadcrumbs for navigation -->
+    <ol class="breadcrumb">
+      <i class="fa fa-home" aria-hidden="true"></i>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="catalogo.html">Catalogo</a></li>
+      <li class="active">Todos</li>
+    </ol>
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div id="todosTab" class="col-lg-2 col-md-2 col-sm-6 col-xs-12 option tusquoise-option active" onclick="getTodos(0); setActiveTab(this);">
+                <a href="#">Hogar</a>
+                <i class="fa fa-check-circle custom-fa-check-circle" aria-hidden="true"></i>
+              </div>
+              <div id="plumasTab" class="col-lg-2 col-md-2 col-sm-6 col-xs-12 option green_sea-option " onclick="getPlumas(1); setActiveTab(this);">
+                <a href="#">Oficina</a>
+                <i class="fa fa-check-circle custom-fa-check-circle" aria-hidden="true"></i>
+              </div>
+              <div id="llaverosTab" class="col-lg-2 col-md-2 col-sm-6 col-xs-12 option emerland-option" onclick="getLlaveros(1); setActiveTab(this);">
+                <a href="#">Deportes</a>
+                <i class="fa fa-check-circle custom-fa-check-circle" aria-hidden="true"></i>
+              </div>
+              <div id="termosTab" class="col-lg-2 col-md-2 col-sm-6 col-xs-12 option nephritis-option" onclick="getTermos(1); setActiveTab(this);">
+                <a href="#">Cocina</a>
+                <i class="fa fa-check-circle custom-fa-check-circle" aria-hidden="true"></i>
+              </div>
+              <div id="tazasTab" class="col-lg-2 col-md-2 col-sm-6 col-xs-12 option peter_river-option" onclick="getTazas(1); setActiveTab(this);">
+                <a href="#">Tecnologia</a>
+                <i class="fa fa-check-circle custom-fa-check-circle" aria-hidden="true"></i>
+              </div>
+              <div id="usbTab" class="col-lg-2 col-md-2 col-sm-6 col-xs-12 option belize_hole-option" onclick="getUSB(1); setActiveTab(this);">
+                <a href="#">Bar</a>
+                <i class="fa fa-check-circle custom-fa-check-circle" aria-hidden="true"></i>
+              </div>
+              <div id="politicasTab" class="col-lg-2 col-md-2 col-sm-6 col-xs-12 option amethyst-option" onclick="getUSB(1); setActiveTab(this);">
+                <a href="#">C.Politicas</a>
+                <i class="fa fa-check-circle custom-fa-check-circle" aria-hidden="true"></i>
+              </div>
+              <div id="damasTab" class="col-lg-2 col-md-2 col-sm-6 col-xs-12 option wisteria-option " onclick="getUSB(1); setActiveTab(this);">
+                <a href="#">Damas</a>
+                <i class="fa fa-check-circle custom-fa-check-circle" aria-hidden="true"></i>
+              </div>
+              <div id="infantilesTab" class="col-lg-2 col-md-2 col-sm-6 col-xs-12 option wet_asphalt-option" onclick="getUSB(1); setActiveTab(this);">
+                <a href="#">Infantiles</a>
+                <i class="fa fa-check-circle custom-fa-check-circle" aria-hidden="true"></i>
+              </div>
+              <div id="herramientasTab" class="col-lg-2 col-md-2 col-sm-6 col-xs-12 option midnight_blue-option" onclick="getUSB(1); setActiveTab(this);">
+                <a href="#">Herramientas</a>
+                <i class="fa fa-check-circle custom-fa-check-circle" aria-hidden="true"></i>
+              </div>
+              <div id="ecoTab" class="col-lg-2 col-md-2 col-sm-6 col-xs-12 option sun_flower-option" onclick="getUSB(1); setActiveTab(this);">
+                <a href="#">Ecologico</a>
+                <i class="fa fa-check-circle custom-fa-check-circle" aria-hidden="true"></i>
+              </div>
+              <div id="saludTab" class="col-lg-2 col-md-2 col-sm-6 col-xs-12 option orange-option" onclick="getUSB(1); setActiveTab(this);">
+                <a href="#">Salud</a>
+                <i class="fa fa-check-circle custom-fa-check-circle" aria-hidden="true"></i>
+              </div>
+              <div id="vestimentaTab" class="col-lg-2 col-md-2 col-sm-6 col-xs-12 option alizarin-option" onclick="getUSB(1); setActiveTab(this);">
+                <a href="#">Vestimenta</a>
+                <i class="fa fa-check-circle custom-fa-check-circle" aria-hidden="true"></i>
+              </div>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            <div class="row">
+              <!-- Pagination -->
+              <nav aria-label="...">
+                <ul class="pagination ">
+                  <li class="disabled">
+                    <a href="#" aria-label="Previous">
+                      <span aria-hidden="true">Anterior</span>
+                    </a>
+                  </li>
+                  <li class="active">
+                    <span>1 <span class="sr-only">(current)</span></span>
+                  </li>
+                  <li class="">
+                    <span>2 <span class="sr-only">(current)</span></span>
+                  </li>
+                  <li class="">
+                    <span>3 <span class="sr-only">(current)</span></span>
+                  </li>
+                  <li class="disabled">
+                    <a href="#" aria-label="Foward">
+                      <span aria-hidden="true">Siguiente </span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div id="catalog-section" class="row">
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row"> -->
+      <div id="footer"class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <!-- <h1>Services</h1>
+          <ul>
+            <li>UX Design</li>
+            <li>UI Design</li>
+            <li>Web Design</li>
+            <li>Mobile Development</li>
+          </ul> -->
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+          <!-- <h1>Dreambridge</h1>
+          <label for="email">Phone Number:</label>
+          <p id="email">
+            info@dreambridge.com
+          </p>
+          <label for="phone">Phone Number:</label>
+          <p id="phone">
+            52 + (664) 558-4012
+          </p> -->
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img src="assets/facebook.png" alt="" width="50" height="50"/>
+            <p>
+              Facebook
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img src="assets/twitter.png" alt="" width="50" height="50"/>
+            <p>
+              Twitter
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <img src="assets/instagram.png" alt="" width="50" height="50"/>
+            <p>
+              Instagram
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+          </div>
+        </div>
+
+      </div>
+
+</body>
+
+</html>

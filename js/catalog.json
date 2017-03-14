@@ -1,0 +1,119 @@
+{
+      "plumas":[
+        {
+          "productoID": "pluma1",
+          "productoNombre": "Superball Pen",
+          "productoDescripcion": "",
+          "url": "superball_pen.jpg"
+        },
+        {
+          "productoID": "pluma2",
+          "productoNombre": "Paragon Pen",
+          "productoDescripcion": "",
+          "url": "paragon_pen.jpg"
+        },
+        {
+          "productoID": "pluma3",
+          "productoNombre": "Colorama Pen",
+          "productoDescripcion": "",
+          "url": "colorama_pen.jpg"
+        },
+        {
+          "productoID": "pluma4",
+          "productoNombre": "Hex Pencil",
+          "productoDescripcion": "",
+          "url": "hex_pencill.jpg"
+        },
+        {
+          "productoID": "pluma5",
+          "productoNombre": "Squiggle Sorbet Pen",
+          "productoDescripcion": "",
+          "url": "squiggle_sorbet_pen.jpg"
+        },
+        {
+          "productoID": "pluma6",
+          "productoNombre": "The Chairman Pen",
+          "productoDescripcion": "",
+          "url": "chairman_pen.jpg"
+        },
+        {
+          "productoID": "pluma7",
+          "productoNombre": "Solitaire Stylus Pen",
+          "productoDescripcion": "",
+          "url": "solitaire_stylus_pen.jpg"
+        },
+        {
+          "productoID": "pluma8",
+          "productoNombre": "Madison Soft Touch Pen",
+          "productoDescripcion": "",
+          "url": "madison_touch_pen.jpg"
+        },
+        {
+          "productoID": "pluma9",
+          "productoNombre": "Executive Cirrus Pen",
+          "productoDescripcion": "",
+          "url": "executive_cirrus_pen.jpg"
+        },
+        {
+          "productoID": "pluma10",
+          "productoNombre": "Frosty Grip Pen",
+          "productoDescripcion": "",
+          "url": "frosty_grip_pen.jpg"
+        },
+        {
+          "productoID": "pluma11",
+          "productoNombre": "Traslucent Superbowl Pen",
+          "productoDescripcion": "",
+          "url": "traslucent_superbowl_pen.jpg"
+        },
+        {
+          "productoID": "pluma12",
+          "productoNombre": "Delux Neon Pen",
+          "productoDescripcion": "",
+          "url": "delux_neon_pen.jpg"
+        },
+        {
+          "productoID": "pluma13",
+          "productoNombre": "Delux Neon Pencil",
+          "productoDescripcion": "",
+          "url": "delux_neon_pencil.jpg"
+        },
+        {
+          "productoID": "pluma14",
+          "productoNombre": "The Soft Touch",
+          "productoDescripcion": "",
+          "url": "soft_touch.jpg"
+        },
+        {
+          "productoID": "pluma15",
+          "productoNombre": "Gelato Pen",
+          "productoDescripcion": "",
+          "url": "gelato_pen.jpg"
+        },
+        {
+          "productoID": "pluma16",
+          "productoNombre": "LaserGrip Pen",
+          "productoDescripcion": "",
+          "url": "lasergrip_pen.jpg"
+        },
+        {
+          "productoID": "pluma17",
+          "productoNombre": "Madison Pen",
+          "productoDescripcion": "",
+          "url": "madison_pen.jpg"
+        }
+      ],
+
+      "llaveros":[
+
+      ],
+      "termos":[
+
+      ],
+      "tazas":[
+
+      ],
+      "usb":[
+
+      ]
+}

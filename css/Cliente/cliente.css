@@ -1,0 +1,112 @@
+.option {
+  font-size     : 22px;
+  margin-top    : 5px;
+  margin-bottom : 5px;
+  padding       : 10px 0;
+  border-right  : 3px solid #fff;
+  cursor: pointer;
+}
+.option > a {
+  color       : #fff;
+  margin-left : 15px;
+  text-decoration: none;
+}
+
+.tusquoise-option {
+  background-color: #1abc9c;
+}
+.green_sea-option {
+  background-color: #16a085;
+}
+.emerland-option {
+  background-color: #2ecc71;
+}
+.nephritis-option {
+  background-color: #27ae60;
+}
+.peter_river-option {
+  background-color: #3498db;
+}
+.belize_hole-option {
+  background-color: #2980b9;
+}
+.amethyst-option {
+  background-color: #af7ac4;
+}
+.wisteria-option {
+  background-color: #8e44ad;
+}
+.wet_asphalt-option {
+  background-color: #34495e;
+}
+.midnight_blue-option {
+  background-color: #2c3e50;
+}
+.sun_flower-option {
+  background-color: #f1c40f;
+}
+.orange-option {
+  background-color: #f39c12;
+}
+.carrot-option {
+  background-color: #e67e22;
+}
+.alizarin-option {
+  background-color:#e74c3c;
+}
+
+
+/*.green-option {
+  background-color: #97cc69;
+}
+.purple-option {
+  background-color: #e600c5;
+}
+.aqua-option {
+  background-color: #1ac2a6;
+}*/
+
+.custom-fa-check-circle {
+  color         : #fff;
+  float         : right;
+  margin-right  : 5px;
+  margin-top    : 5px;
+}
+
+.caption > p {
+  color: #000;
+}
+
+.option > i {
+  display: none;
+}
+
+.option.active > i {
+  display: block;
+}
+
+/*Test*/
+/*html
+{
+    position: relative; 
+    min-height: 100%;
+}
+
+body
+{
+    margin: 0 0 65px;
+}*/
+
+/*#contenido {
+margin: 0 auto;
+width: 84.7%;
+min-height: 350px;
+}*/
+
+
+.prueba{
+  /*Nuevo 11//09/16 Cristian mantener footer al fondo */
+  position: absolute; 
+  bottom: 0%; 
+  }
+
